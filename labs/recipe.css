@@ -1,0 +1,56 @@
+.bodyRecipe{
+    background-image: url("http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg");
+    padding: 20px;
+    margin:10px;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    background-attachment: fixed;
+}
+.containerRecipe{
+    padding-left: 20px;
+    padding-left: 0px;
+    margin-right: 0%;
+}
+.noneli{
+    list-style: none;
+    padding-left: 0px;
+}
+.list{
+    list-style-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/pie_icon.gif);
+  }
+  .heading{
+      text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+    text-decoration: underline;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    margin-left: 30%; 
+    margin-right: 30%; 
+}
+.headings{
+    font-size:18pt;
+    font-weight: normal;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-align: left;  
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif; 
+    text-decoration: underline;
+    letter-spacing:0.25em;
+    margin-right: 75%;
+}
+blockquote {
+    background: #FFFFA8;
+    font-style: italic;
+  }
+  /* visited link */
+  a:visited {
+    color: #A4A400;
+  }
+  footer{
+      position: relative;
+      text-align: right;
+      font-family: monospace;
+  }

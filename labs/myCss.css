@@ -1,0 +1,41 @@
+div{
+    border-radius: 15px;
+    margin-right: 50%;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.imgMe{
+    background-image: url("img2.jpeg");
+    background-size: 295px;  
+}
+ul{
+    list-style-type: circle;
+    padding-bottom: 20px;  
+}
+.img {
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-top: 20px; 
+}
+.body {
+    background-color: yellow;
+    padding-top: 20px;
+}
+footer {
+    column-count: 3;
+    column-gap: 40px;
+    background-color: red;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-right: 50%;
+}
+div h2{
+    color: white;
+    background-color: gainsboro;
+    margin-right: 70%;   
+}
+
+ 
+  
