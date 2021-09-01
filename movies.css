@@ -66,14 +66,15 @@ img{
     width: 250px;
 }
 .def{
-    padding: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
     font-family: Arial,sans-serif;
     font-size: 8pt;
-    margin-bottom: 5px;
 }
 .def dt{
     font-size: 10pt;
     font-weight: bold;
+    padding-top: 10px;
 }
 .bar{
     text-align: center;
