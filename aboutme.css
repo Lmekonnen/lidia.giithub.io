@@ -56,4 +56,5 @@ div h2{
 .logo{
     border-radius: 50%;
     margin-top: 20px;
+    vertical-align: middle;
 }
