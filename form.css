@@ -1,0 +1,21 @@
+input[type=number], [type=text],select {
+   width: 100px;
+
+}
+form{
+    margin: 0% 30% 0% 30%;
+    border: 3px skyblue solid;
+    border-radius: 20px;
+    background-color: skyblue;
+    padding-left: 30px;
+}
+input{
+    border: 3px rgb(202, 218, 212) solid;
+    box-shadow: rgb(115, 144, 112);
+}
+.label{
+    font-weight: bold;
+}
+input[type=submit]{
+    background-color: lightsalmon;
+}
