@@ -18,4 +18,30 @@ input{
 }
 input[type=submit]{
     background-color: lightsalmon;
+    font-size: 25px;
 }
+.heading{
+    margin-left: 31%;
+    padding: 0%;
+    background-color: rgb(255, 252, 242);
+    margin-right: 56%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+div span{
+    font-size: 35px;
+}
+h2{
+    margin-top: -25px;
+    background-color: white;
+    margin-right: 50%;
+    border:  gray solid;
+}
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hotpink;
+  }
