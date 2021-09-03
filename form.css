@@ -8,6 +8,7 @@ form{
     border-radius: 20px;
     background-color: skyblue;
     padding-left: 30px;
+    
 }
 input{
     border: 3px rgb(202, 218, 212) solid;
@@ -32,10 +33,10 @@ div span{
     font-size: 35px;
 }
 h2{
-    margin-top: -25px;
+    margin-top: -20px;
     background-color: white;
     margin-right: 50%;
-    border:  gray solid;
+    border: 0.5px gray solid;
 }
 a:link {
     color: red;
@@ -43,5 +44,14 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: hotpink;
+    color: red;
   }
+  footer{
+    margin: 0% 30% 0% 30%;
+  }
+ .img{
+     width: 20px;
+     height: 20px;
+     vertical-align: middle;
+ }
+  
