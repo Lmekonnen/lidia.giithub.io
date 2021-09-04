@@ -90,5 +90,12 @@ img{
  opacity: 50%;
  position: fixed;
  bottom: 0;
-
+  right: 0;
 }
+.w33{
+    float: right;
+    opacity: 50%;
+    position: fixed;
+    bottom: 0;
+     right: 6%;
+   }
