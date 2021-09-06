@@ -12,7 +12,7 @@ form{
 }
 input{
     border: 3px rgb(202, 218, 212) solid;
-    box-shadow: rgb(115, 144, 112);
+    box-shadow: 0px 0px rgb(115, 144, 112);
 }
 .label{
     font-weight: bold;
