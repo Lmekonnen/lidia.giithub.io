@@ -1,0 +1,17 @@
+body{
+    background-color: #CCCCFF;
+    font-family: sans-serif;
+    font: 14pt bold;
+}
+header{
+    font: 32pt bold;
+    text-align:center;
+    margin: 0%;
+}
+textarea{
+    text-align: center;
+    width: 90%;
+    height: 400px;
+    font: 12pt bold;
+    font-family: monospace;
+}
