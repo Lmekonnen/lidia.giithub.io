@@ -15,3 +15,7 @@ textarea{
     font: 12pt bold;
     font-family: monospace;
 }
+fieldset{
+    border: 5px black solid;
+    display: inline-block;
+}
