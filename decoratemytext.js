@@ -67,7 +67,7 @@ var c = function(a, b, c) {
 c(8,9,10);
 document.write(b);
 document.write(x);
-
+//    * 
 // 2. What is the difference between a method and function?
 //    * 
 // 3. What does 'this' refer to when used in a Java method?
