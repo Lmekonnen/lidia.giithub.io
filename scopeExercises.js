@@ -2,24 +2,24 @@
 x = 1;
 var a = 5;
 var b = 10;
-var c = function (a, b, c) {     //(8,9,10)
-    var x = 10;
-    document.write(x); 				//i (x=10)
-    document.write(a); 				//ii (a=8)
+var c = function (a, b, c) {     //8,9,10 
+    var x = 10;                  
+    document.write(x); 			 //	10
+    document.write(a); 			 // 8	
 
-    var f = function (a, b, c) {  			//(8,9,10)
-        b = a;		                      	        //b=8
-        document.write(b); 	                       //iii (b=8)
-        b = c; 		                            	// b=10
-        var x = 5;
+    var f = function (a, b, c) {  			
+        b = a;		                      	       
+        document.write(b); 	          //8        
+        b = c; 		                  //10          
+        var x = 5;                    
     }
 
-    f(a, b, c); 					//f(8,9,10)
-    document.write(b); 				//iv (b=9)
+    f(a, b, c); 					//8,9,10
+    document.write(b); 			    //9
 }
 c(8, 9, 10);
-document.write(b);				//v (b=10)
-document.write(x);				//vi (x=1)
+document.write(b);			//10
+document.write(x);	        //1
 
 
 //Ans: 	
@@ -39,10 +39,10 @@ document.write(x);				//vi (x=1)
     //    * ‘this’ refers to the current object in a method or in a constructor.
 // 4. What does 'this' refer to when used in a JavaScript method?
     //    * It has different values depending on where it is used:
-    //      IN METHOD: It refers to owner object
-    //      ALONE: It refers to global object
-    //      IN A FUCNTION: It refers to global object
-    //      IN AN EVENT: It refers to the element that recieved the event.
+    //          IN METHOD: It refers to owner object
+    //          ALONE: It refers to global object
+    //          IN A FUCNTION: It refers to global object
+    //          IN AN EVENT: It refers to the element that recieved the event.
 
 // 5. What does 'this' refer to when used in a JavaScript constructor function?
     //    * ‘this’ keyword refers to the instance of the constructor
