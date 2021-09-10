@@ -14,7 +14,7 @@ var c = function (a, b, c) {     //8,9,10
         var x = 5;                    
     }
 
-    f(a, b, c); 					//8,9,10
+    f(a, b, c); 					//8,9,10 
     document.write(b); 			    //9
 }
 c(8, 9, 10);

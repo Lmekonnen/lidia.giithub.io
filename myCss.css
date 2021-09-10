@@ -32,10 +32,9 @@ footer {
     border-radius: 15px;
     margin-right: 50%;
 }
-div h2{
-    color: white;
-    background-color: gainsboro;
-    margin-right: 70%;   
+div h1{
+    text-decoration: underline overline;  
+    word-spacing: 3pt;
 }
 
  
