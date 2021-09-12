@@ -1,4 +1,4 @@
-
+"use strict";
 var textArea, animDdl, sizeDdl, timer, startButton, stopButton, speed = 250, turboChk;
 
 function start() {
@@ -49,7 +49,6 @@ window.onload = function () {
     animDdl = document.getElementById("animation");
     sizeDdl = document.getElementById("fontsize");
     turboChk = document.getElementById("turbo");
-
     startButton = document.getElementById("start");
     stopButton = document.getElementById("stop");
 

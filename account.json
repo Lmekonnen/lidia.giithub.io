@@ -1,0 +1,11 @@
+[{"AccountNumber":"01-980-0001",
+    "CustomerDeposit": "1000",
+    "TypeofAccount":"Saving"
+},
+{ 
+    "AccountNumber":"01-980-0002"  ,
+    "CustomerDeposit": "3000",
+    "TypeofAccount":"Checking"
+    }]
+
+
