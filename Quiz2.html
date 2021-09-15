@@ -7,19 +7,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script>
-        $(document).ready(function(){
-  $("ul").parents("div").css({"color": "blue"});
-});
+        $(document).ready(function () {
+            $("ul").parents("div").css({ "color": "blue" });
+            $("<div><h1>JQuery Core</h1></div>").appendTo("body");
+        });
 
     </script>
 </head>
 
 <body>
-
-    <p>
-        1. Which, if any, of the following 3 code fragments are equivalent? Explain why they are different, if
-        they are. Explain why they can have different parameters and be equivalent, if they are equivalent.
     <pre>
+        <h3>1. Which, if any, of the following 3 code fragments are equivalent? Explain why they are different, if
+        they are. Explain why they can have different parameters and be equivalent, if they are equivalent.</h3>
+    
             //code fragment 1
             $("li").each(function (idx, e) {
                 $(e).css('color', 'yellow');
@@ -33,28 +33,38 @@
                 $(this).css('color', 'yellow');
             });
 
-            -> code 1 and code 3 are similiar  
-        </pre>
-
-    </p>
-    <p>
-        2. Write a jQuery expression to find all divs on a page that include an unordered list in them, and make
-        their text color be blue.
-    </p>
-    <div>no ul here </div>
-    <div>
-        This does contain a ul.
-        <ul>
-            <li>the first item</li>
-            <li>the second item</li>
-        </ul>
-    </div>
-</body>
-<p>
-    3. Write jQuery code to append the following div element (and all of its contents) dynamically to the body
-    element.
-    <script> $("<div><h1>JQuery Core</h1></div>" ).appendTo( "body" );
-    </script>
+            <h3>Answer</h3>
+            -> All three of them are equivalent, because all of them tells that the css operation is applied for every element of the list. 
+            <h3>2. Write a jQuery expression to find all divs on a page that include an unordered list in them, and make
+        their text color be blue.</h3>
+        &lt;div&gt;no ul here &lt;/div&gt;
+            &lt;div&gt;
+                This does contain a ul.
+                &lt;ul&gt;
+                    &lt;li&gt;the first item&lt;/li&gt;
+                    &lt;li&gt;the second item&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            <h3>Answer:</h3>
+            &lt;script&gt;
+                $(document).ready(function(){
+                $("ul").parents("div").css({"color": "blue"});
+        });
+        &lt;/script&gt;
+            <div>no ul here </div>
+            <div>
+                This does contain a ul.
+                <ul>
+                    <li>the first item</li>
+                    <li>the second item</li>
+                </ul>
+            </div>
+        <h3>3. Write jQuery code to append the following div element (and all of its contents) dynamically to the body element.</h3>
+        <h3>Answer:</h3>
+        &lt;script&gt;
+                $("&lt;div&gt;&lt;h1&gt;JQuery Core&lt;/h1&gt;&lt;/div&gt;").appendTo("body");
+            &lt;/script&gt;
+    </pre>
 </body>
 
 </html>
