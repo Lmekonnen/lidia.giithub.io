@@ -45,10 +45,10 @@
 // });
 
 $(document).ready(function () {
-    $("#boundary1").mouseover(function ()){
+    // $("#boundary1").mouseover(function ()){
 
 
-    }
+    // }
     function lose() {
         gameStarted = false;
         boundary.addClass("youlose");
