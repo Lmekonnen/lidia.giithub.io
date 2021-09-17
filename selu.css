@@ -4,10 +4,7 @@ body,button {
     text-align: center;
     letter-spacing: 2px;
 }
-.text{
-font-family: Georgia, 'Times New Roman', Times, serif;
-width: 10%;
-}
+
 .body::after {
     content: "";
     background: url(bac.png);
