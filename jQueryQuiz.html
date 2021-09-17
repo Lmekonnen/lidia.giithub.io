@@ -5,21 +5,22 @@
     <script>
         $(document).ready(function () {
             $("button").click(function () {
-                $("div h1").css("background-color", "red");
                 $('p').append("YES");
             });
+            $("div h1").css("background-color", "red");
 
         });
     </script>
 </head>
+
 <body>
     <pre>
-<h3>Question1: In jQuery terminology, what is the difference between the “jQuery function” and the “jQuery object”? 
+    <h3>Question1: In jQuery terminology, what is the difference between the “jQuery function” and the “jQuery object”? </h3>
+<h3>Answer:</h3>
     -> The difference between the “jQuery function” and the “jQuery object” is<br>
-Question2: Write jQuery code to find all h1 elements that are children of a div element and make their background
-    color red.
+    <h3>Question2: Write jQuery code to find all h1 elements that are children of a div element and make their background color red.</h3>
     Sample HTML:    
-&lt;body&gt;
+    &lt;body&gt;
     &lt;h1&gt;abc&lt;/h1&gt;&lt;br&gt;
     &lt;div&gt;
         &lt;h1&gt;div-1&lt;/h1&gt;
@@ -27,19 +28,26 @@ Question2: Write jQuery code to find all h1 elements that are children of a div 
     &lt;/div&gt;
     &lt;h1&gt;xyz&lt;/h1&gt;
 &lt;body&gt;
-Answer:
+<h3>Answer:</h3>
+&lt;script&gt;
+    $(document).ready(function () {
+            $("div h1").css("background-color", "red");
+        });
+
+    });
+    &lt;/script&gt;
 <h1>abc</h1>
 <div>
     <h1>div-1</h1>
     <h1>div-2</h1>
 </div>
 <h1>xyz</h1>
-</h3>
-<h3>
-Question3:Use a jQuery method to insert the text "YES!" at the end of the &lt;p&gt; element.
+
+<h3>Question3:Use a jQuery method to insert the text "YES!" at the end of the &lt;p&gt; element.</h3>
     &lt;!DOCTYPE html&gt;
     &lt;html&gt;
         &lt;head&gt;
+        <h3>Answer:</h3>
             &lt;script&gt;
             $(document).ready(function () {
                 $("button").click(function () {
@@ -50,9 +58,12 @@ Question3:Use a jQuery method to insert the text "YES!" at the end of the &lt;p&
             &lt;/script&gt;
         &lt;/head&gt;
         &lt;body&gt;
+            &lt;p&gt;Is jQuery FUN or what? &lt;/p&gt;
+            &lt;button&gt;Click me&lt;/button&gt;
+        &lt;body&gt;
+        &lt;/html&gt;
             <p>Is jQuery FUN or what? </p>  
-    <button>Click me</button>
-</h3>
+            <button>Click me</button>
     </pre>
 </body>
 

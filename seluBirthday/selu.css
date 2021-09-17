@@ -1,9 +1,26 @@
-body, button {
+body,button {
     font-family: cursive;
     font-size: 14pt;
     text-align: center;
+ 
 }
-
+/* .body{
+    
+    
+} */
+.body::after {
+    content: "";
+    background: url(bac.png);
+    background-size: 2000px 2000px;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
 /* The area that holds the 15 puzzle pieces. */
 #puzzlearea {
     font-size: 40pt;
@@ -30,18 +47,27 @@ body, button {
 }
 
 /* grading styles -- for TAs only; not required by students */
-#gradingarea {
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    z-index: 999999;
-}
 
-.valid {
-    background-color: #bfb;
-}
 
-.invalid {
-    background-color: #f88;
-}
+.validation{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    position: relative;
 
+}
+.overlay {
+  position: absolute; 
+  display: inline;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 360px;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.validation:hover .overlay {
+    opacity: 1;
+  }
