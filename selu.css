@@ -2,12 +2,12 @@ body,button {
     font-family: cursive;
     font-size: 14pt;
     text-align: center;
- 
+    
 }
-/* .body{
-    
-    
-} */
+.text{
+
+width: 10%;
+}
 .body::after {
     content: "";
     background: url(bac.png);
@@ -49,19 +49,28 @@ body,button {
 /* grading styles -- for TAs only; not required by students */
 
 
-.validation{
-    width: 200px;
-    height: 200px;
-    display: inline;
-    position: relative;
-
+.over{
+    width: 30%;
+    height: 300px;
+    display: inline-flexbox;
 }
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+/* .over{
+    width: 20em;
+    height: 30%;
+ 
+  
+} */
 .overlay {
   position: absolute; 
   display: inline;
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 360px;
+  width: 25%;
   opacity:0;
   color: white;
   font-size: 20px;
