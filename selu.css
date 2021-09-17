@@ -48,7 +48,7 @@ body,button {
 
 .over{
     width: 30%;
-    height: 300px;
+    height: 400px;
     display: inline-flexbox;
 }
 @media only screen and (max-width: 500px) {
