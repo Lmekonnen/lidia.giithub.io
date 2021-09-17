@@ -1,11 +1,11 @@
 body,button {
-    font-family: cursive;
-    font-size: 14pt;
+    font-family: 'Poem Letters Serif', sans-serif;
+    font-size: 25pt;
     text-align: center;
-    
+    letter-spacing: 2px;
 }
 .text{
-
+font-family: Georgia, 'Times New Roman', Times, serif;
 width: 10%;
 }
 .body::after {
@@ -70,7 +70,7 @@ width: 10%;
   display: inline;
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 25%;
+  width: 27%;
   opacity:0;
   color: white;
   font-size: 20px;
