@@ -11,7 +11,7 @@ body,button {
 .body::after {
     content: "";
     background: url(bac.png);
-    background-size: 2000px 2000px;
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.2;
     top: 0;
