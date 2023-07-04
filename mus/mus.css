@@ -1,0 +1,79 @@
+body,button {
+    font-family: 'Poem Letters Serif', cursive;
+    font-size: 25pt;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.body::after {
+    content: "";
+    background: url(3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+/* The area that holds the 15 puzzle pieces. */
+#puzzlearea {
+    font-size: 40pt;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* This class should be applied to each of the 15 puzzle pieces. */
+.puzzlepiece {
+    background-image: url("2.jpeg");
+    border: 5px solid black;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+
+/* This class should be applied to a puzzle piece that can be moved. */
+.movablepiece:hover {
+    border-color: red;
+    color: red;
+}
+
+/* grading styles -- for TAs only; not required by students */
+
+
+.over{
+    width: 30%;
+    height: 400px;
+    display: inline-flexbox;
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+/* .over{
+    width: 20em;
+    height: 30%;
+ 
+  
+} */
+.overlay {
+  position: absolute; 
+  display: inline;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 27%;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.validation:hover .overlay {
+    opacity: 1;
+  }
